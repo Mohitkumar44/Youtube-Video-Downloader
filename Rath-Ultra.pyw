@@ -10,7 +10,7 @@ DOWNLOAD_FOLDER = os.path.join(os.path.expanduser("~"), "Downloads")
 class YouTubeDownloader(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("YouTube Video Downloader")
+        self.title("YT Video Downloader - Mohit Bhai 😎")
         self.geometry("450x230")
         self.resizable(False, False)
         self.configure(bg="#181a22")
@@ -28,7 +28,7 @@ class YouTubeDownloader(tk.Tk):
 
     def create_widgets(self):
         # Heading
-        title = tk.Label(self, text="YouTube HD Downloader", font=("Segoe UI", 17, "bold"),
+        title = tk.Label(self, text="Pro Coder", font=("Segoe UI", 17, "bold"),
                          bg="#181a22", fg="#38d8ff")
         title.pack(pady=(14, 6))
 
