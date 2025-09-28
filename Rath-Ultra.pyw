@@ -12,7 +12,7 @@ DOWNLOAD_FOLDER = os.path.join(os.path.expanduser("~"), "Downloads")
 class YouTubeDownloader(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("YT Video Downloader - Moiht Bhai 😎")
+        self.title("YT Video Downloader - Mohit Bhai 😎")
         self.geometry("450x230")
         self.resizable(False, False)
         self.configure(bg="#181a22")
